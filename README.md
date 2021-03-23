@@ -21,7 +21,10 @@ chmod +x setup
 ```
 
 **Extras**
+
 Font Awesome is reqiured for icons used in waybar, but I use this font package instead whihc includes other fonts: https://github.com/gabrielelana/awesome-terminal-fonts
+
+**Credits**
 
 Credit to Dracula for themes and colours: https://draculatheme.com/
 
