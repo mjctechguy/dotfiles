@@ -1,15 +1,15 @@
 # Mjctechguy's Dotfiles
 **Included dotfiles**
-- sway
-- waybar
-- mako
+- sway - https://github.com/swaywm/sway
+- waybar - https://github.com/Alexays/Waybar
+- mako - https://github.com/emersion/mako
+- alacritty - https://github.com/alacritty/alacritty
+- fish - https://github.com/fish-shell/fish-shell
+- ncspot - https://github.com/hrkfdn/ncspot
+- micro - https://github.com/zyedidia/micro
+- rofi - https://github.com/davatorium/rofi
 - qt5ct
 - gtk-3.0
-- alacritty
-- fish
-- ncspot
-- micro
-- rofi
 
 **Setting up config files**
 ```
