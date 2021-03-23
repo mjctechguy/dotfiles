@@ -1,0 +1,63 @@
+[
+	//Output on DP-1
+	{
+		"output": "DP-1",
+    	"height": 31, // Waybar height (to be removed for auto height)
+    	"modules-left": ["sway/workspaces", "sway/mode"],
+    	"modules-center": ["sway/window"],
+    	"modules-right": ["custom/media", "pulseaudio", "custom/updates", "clock", "tray"],
+    	
+         "sway/workspaces": {
+         	 "disable-scroll": true,
+         	 "all-outputs": false,
+        	 "format": "{icon}",
+       		 "format-icons": {
+             	 "1": " Home",
+           		 "2": "\uf269 Browser",
+            	 "3": " Email",
+	             "4": " Music",
+	             "5": " Gaming",
+	           },
+          },
+          
+         
+        "custom/media": {
+	        "format": "{icon} {}",
+	        "return-type": "json",
+	        "max-length": 100,
+	        "format-icons": {
+				"ncspot" : "",
+	        },
+	        "escape": true,
+        	"exec": "$HOME/.config/waybar//scripts/mediaplayer.py --player ncspot 2> /dev/null",
+        	"on-click": "$HOME/.config/waybar/scripts/playpause.sh",
+        	"on-click-right": "swaymsg workspace 4" 
+        },
+        
+    	"tray": {
+        	"spacing": 10
+    	},
+
+    	"clock": {
+        	"format": "{:%a %d %b %Y %H:%M}"
+    	},
+
+	    "pulseaudio": {
+	        "format": "{icon} {volume}%",
+	        "format-muted": " ",
+	        "format-icons": {
+	            "default": ["", "", ""]
+	        },
+	        "on-click": "pavucontrol"
+	    },
+
+	    "custom/updates": {
+	        "format": "{}",
+	      	"interval": 600,
+        	"exec": "$HOME/.config/waybar/scripts/updates-pacman-aurhelper.sh",
+        	"on-click": "alacritty -e paru"
+        },
+		
+	        	
+    },	
+]
