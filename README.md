@@ -1,4 +1,4 @@
-####Mjctechguy's Dotfiles
+# Mjctechguy's Dotfiles
 #### Included dotfiles
 - sway
 - waybar
