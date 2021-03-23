@@ -1,5 +1,5 @@
 # Mjctechguy's Dotfiles
-#### Included dotfiles
+**Included dotfiles**
 - sway
 - waybar
 - mako
