@@ -21,4 +21,5 @@ chmod +x setup
 ```
 
 Credit to Dracula for themes and colours: https://draculatheme.com/
+
 Credit to Alex Pearce for the orginal atricle on setting up GNU Stow and git to store dotfiles: https://alexpearce.me/2016/02/managing-dotfiles-with-stow/
