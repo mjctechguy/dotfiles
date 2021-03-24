@@ -4,6 +4,8 @@ configuration {
   
   show-icons:         true;
   icon-theme:         "Papirus";
+      line-padding: 15;
+    padding: 0;
 }
 
 /*Dracula theme based on the Purple official rofi theme*/
@@ -50,7 +52,11 @@ configuration {
 }
 #element {
     border:  0;
-    padding: 1px ;
+    padding: 1px;
+}
+
+#element-icon {
+	size:20px;
 }
 #element.normal.normal {
     background-color: @background;
@@ -112,6 +118,7 @@ configuration {
     text-color: @foreground;
 }
 #entry {
+	padding: 15px;
     spacing:    0;
     text-color: @foreground;
 }

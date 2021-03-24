@@ -1,0 +1,50 @@
+configuration {
+    font: "Noto Sans 11";
+    lines: 10;
+    location: 0;
+    yoffset: 0;
+    show-icons: true;
+    ssh-client: "openssh";
+    icon-theme: "Paprius";
+    line-padding: 15;
+    padding: 0;
+    hide-scrollbar: true;
+    fixedo-num-lines: false;
+    width: 25;
+}
+
+* {
+    background-color: #282a36;
+    color: #f8f8f2;
+}
+
+window {
+    background-color: #0E0E0E;
+    color: #FFFFFF;
+    border: 2.5px 2.5px 2.5px 2.5px;
+    border-color: #6272a4;
+}
+
+element {
+    padding: 15px;
+    margin: 0;
+    spacing: 15px;
+    color: #f8f8f2;
+}
+
+element-icon {
+    size: 25px;
+}
+
+element selected {
+    background-color: #44475a;
+    color: #FFFFFF;
+}
+
+inputbar {
+    spacing: 0px ;
+}
+
+entry, prompt {
+    padding: 20px;    
+}
