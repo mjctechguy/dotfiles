@@ -19,11 +19,10 @@ git clone https://github.com/mjctechguy/dotfiles.git
 chmod +x setup
 ./setup
 ```
-
 ## Extras
 Font Awesome is reqiured for icons used in waybar, but I use this font package instead which includes Font Awesome 4.7 and other icon fonts: https://github.com/gabrielelana/awesome-terminal-fonts
 
 ## Credits
-Dracula for themes and colours: https://draculatheme.com/
+**Dracula** for themes and colours: https://draculatheme.com/
 
-Alex Pearce for the orginal atricle on setting up GNU Stow and git to store dotfiles: https://alexpearce.me/2016/02/managing-dotfiles-with-stow/
+**Alex Pearce** for the original article on setting up GNU Stow and git to store dotfiles: https://alexpearce.me/2016/02/managing-dotfiles-with-stow/
