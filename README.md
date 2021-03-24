@@ -19,6 +19,14 @@ git clone https://github.com/mjctechguy/dotfiles.git
 chmod +x setup
 ./setup
 ```
+**Alternative setup**
+```
+mkdir ~/.dotfiles
+cd ~/.dotfiles
+git clone https://github.com/mjctechguy/dotfiles.git
+stow alacritty fish gtk-3.0 mako micro ncspot qt5ct rofi sway waybar
+```
+
 ## Extras
 Font Awesome is reqiured for icons used in waybar, but I use this font package instead which includes Font Awesome 4.7 and other icon fonts: https://github.com/gabrielelana/awesome-terminal-fonts
 
