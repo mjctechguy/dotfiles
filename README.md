@@ -22,7 +22,7 @@ chmod +x setup
 
 **Extras**
 
-Font Awesome is reqiured for icons used in waybar, but I use this font package instead whihc includes other fonts: https://github.com/gabrielelana/awesome-terminal-fonts
+Font Awesome is reqiured for icons used in waybar, but I use this font package instead which includes other fonts aswell: https://github.com/gabrielelana/awesome-terminal-fonts
 
 **Credits**
 
