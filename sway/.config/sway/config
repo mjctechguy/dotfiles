@@ -103,8 +103,8 @@ for_window [app_id="yubico.com.yubioath-desktop"] floating enable
     bindsym $mod+Shift+c reload
 
     # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+e exec wlogout
-
+    bindsym $mod+Shift+e exec rofi -show p -modi p:rofi-power-menu -width 10 -lines 6
+    
 	# Audio Control
 	bindsym XF86AudioRaiseVolume exec pamixer -ui 2 && pamixer --get-volume > $SWAYSOCK.wob
 	bindsym XF86AudioLowerVolume exec pamixer -ud 2 && pamixer --get-volume > $SWAYSOCK.wob
