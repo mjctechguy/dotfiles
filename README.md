@@ -11,7 +11,7 @@
 - qt5ct
 - gtk-3.0
 
-**Setting up config files**
+**Setup config**
 ```
 mkdir ~/.dotfiles
 cd ~/.dotfiles
