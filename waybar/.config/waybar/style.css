@@ -40,6 +40,7 @@ window#waybar.alacritty {
 
 #workspaces button.urgent {
     background-color: #FF5555;
+    color: #f8f8f2
 }
 
 #mode {
