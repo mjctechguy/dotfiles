@@ -109,14 +109,14 @@ bindsym $mod+Shift+Right move right
 
 
 #Move windows to Workspaces
-for_window [class="discord"] move workspace 2
-for_window [title="ncspot-spotify"] move workspace 4
-for_window [class="Steam"] move workspace 5
-for_window [class="MultiMC5"] move workspace 5
-for_window [class="Minecraft*"] move workspace 5
-for_window [class="PCSX2"] move workspace 5
-for_window [class="Thunderbird"] move workspace 3
-for_window [class="electron-mail"] move workspace 3
+for_window [class="discord"] move workspace 3
+for_window [title="ncspot-spotify"] move workspace 5
+for_window [class="Steam"] move workspace 6
+for_window [class="MultiMC5"] move workspace 6
+for_window [class="Minecraft*"] move workspace 6
+for_window [class="PCSX2"] move workspace 6
+for_window [class="Thunderbird"] move workspace 4
+for_window [class="electron-mail"] move workspace 4
 
 ## Workspaces // Move to // $mod+1-0 ##    
 bindsym $mod+1 workspace number 1
