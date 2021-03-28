@@ -13,7 +13,7 @@
         	 "format": "{icon}",
        		 "format-icons": {
              	 "1": " Home",
-				 "2": "\f120 Coding"
+				 "2": "\uf120 Coding",
            		 "3": "\uf269 Browser",
             	 "4": " Email",
 	             "5": " Music",
