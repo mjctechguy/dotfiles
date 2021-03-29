@@ -13,11 +13,12 @@
         	 "format": "{icon}",
        		 "format-icons": {
              	 "1": " Home",
-				 "2": "\uf120 Coding",
-           		 "3": "\uf269 Browser",
+				 "2": " Coding",
+           		 "3": " Browser",
             	 "4": " Email",
 	             "5": " Music",
 	             "6": " Gaming",
+	             "7": " VMs"
 	           },
           },
           

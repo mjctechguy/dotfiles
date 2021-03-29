@@ -117,6 +117,7 @@ for_window [class="Minecraft*"] move workspace 6
 for_window [class="PCSX2"] move workspace 6
 for_window [class="Thunderbird"] move workspace 4
 for_window [class="electron-mail"] move workspace 4
+for_window [app_id="virt-manager"] move workspace 7
 
 ## Workspaces // Move to // $mod+1-0 ##    
 bindsym $mod+1 workspace number 1
@@ -220,6 +221,6 @@ client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
 client.background       #F8F8F2
 
 #Loading Waybar
-exec waybar
+exec ~/.config/waybar/launch
 
 include /etc/sway/config.d/*
