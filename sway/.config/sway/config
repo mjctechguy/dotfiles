@@ -40,12 +40,14 @@ exec thunderbird
 exec electron-mail
 exec system-config-printer-applet
 exec polychromatic-tray-applet
+exec nextcloud
 
 #WOB Volume control
 exec mkfifo $SWAYSOCK.wob && tail -f $SWAYSOCK.wob | wob --border-color '#ffff79c6' --background-color '#ff282a36'
 
 
 for_window [app_id="yubico.com.yubioath-desktop"] floating enable
+for_window [app_id="thunar"] floating enable
 # Start File Manager
 ## Application // Open Nemo // $mod+Shift+f ##
 bindsym $mod+Shift+f exec "nemo"
