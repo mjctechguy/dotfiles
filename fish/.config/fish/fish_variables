@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR VISUAL:micro
 SETUVAR __fish_initialized:3100
 SETUVAR _fisher_danhper_2F_fish_2D_ssh_2D_agent_files:/home/michael/\x2econfig/fish/functions/__ssh_agent_is_started\x2efish\x1e/home/michael/\x2econfig/fish/functions/__ssh_agent_start\x2efish\x1e/home/michael/\x2econfig/fish/conf\x2ed/fish\x2dssh\x2dagent\x2efish
 SETUVAR _fisher_dracula_2F_fish_files:/home/michael/\x2econfig/fish/conf\x2ed/dracula\x2efish

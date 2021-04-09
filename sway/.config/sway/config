@@ -41,6 +41,7 @@ exec electron-mail
 exec system-config-printer-applet
 exec polychromatic-tray-applet
 exec nextcloud
+exec protonmail-bridge --no-window
 
 #WOB Volume control
 exec mkfifo $SWAYSOCK.wob && tail -f $SWAYSOCK.wob | wob --border-color '#ffff79c6' --background-color '#ff282a36'

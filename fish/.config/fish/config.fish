@@ -1,9 +1,8 @@
 set -x MICRO_TRUECOLOR 1
-set -x QT_QPA_PLATFORMTHEME qt5ct
-set -x VISUAL micro
-set -x EDITOR micro
-set -x XDG_CURRENT_DESKTOP Unity
-
+set -gx VISUAL micro
+set -gx EDITOR micro
+set -gx GTK_CSD 0
+#set -gx QT_QPA_PLATFORMTHEME qt5ct
 #Aliases
 alias edit="micro"
 alias ls="exa"
